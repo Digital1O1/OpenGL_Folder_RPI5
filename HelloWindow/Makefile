@@ -25,7 +25,8 @@ $(TARGET): $(OBJS)
 
 # Clean up build files
 clean:
-	rm -f $(OBJS) $(TARGET)
+	rm -f helloWindow.o $(TARGET)
+# rm -f $(OBJS) $(TARGET)
 
 # # Run the program
 # run: $(TARGET)
